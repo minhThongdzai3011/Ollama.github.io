@@ -1,0 +1,136 @@
+/* styles.css */  
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: beige;  
+    margin: 0;   
+    display: flex;
+    height: 100vh;
+}  
+
+h1 {  
+    color: #333;  
+}  
+
+#chatbox { 
+    margin-top: 10px; 
+    margin-left: 3%;
+    background: white;  
+    border: 1px solid #ccc;  
+    padding: 20px;  
+    border-radius: 5px;  
+    width: 90%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}  
+
+.seen{
+    display: flex;
+}
+
+#messages {  
+    height: 75vh;  
+    overflow-y: auto;  
+    margin-bottom: 10px;  
+    border: 1px solid #ccc;  
+    padding: 5px;  
+}  
+
+input[type="text"] {  
+    width: calc(100% - 70px);  
+    padding: 10px;  
+}  
+
+button {  
+    padding: 10px 15px;  
+}
+
+.menu{
+    width: 20%;
+    height: 100vh;
+    background-color: aquamarine;
+    border-right: 2px solid white;
+}
+.ollama_chat{
+    width: 80%;
+    height: 93vh;
+    display: flex;
+}
+.logo-nameWeb{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(10, 8, 41)  /*rgb(10, 8, 41)*/;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+.logo img:hover{
+    transform: scale(1.21);
+}
+.nameWeb{
+    height: 50px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameWeb p{
+    height: 50px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.chat{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.div-chat{
+    display: flex;
+    width: 70%;
+    height: 38px;
+    background-color: white  /*rgb(138, 82, 82)*/;
+    border-radius: 10px;
+    align-items: center;
+    transition: transform 0.3s;
+}
+.icon-chat{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    color: rgb(10, 8, 41);
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+
+.div-chat:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.letter-chat{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: rgb(10, 8, 41);
+}
+
+

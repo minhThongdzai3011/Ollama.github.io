@@ -1,0 +1,91 @@
+<!DOCTYPE html>  
+<html lang="vi">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Chat with AI</title>  
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>  
+<body>  
+    <div class="menu">
+        <div class="logo-nameWeb">
+            <div class="logo">
+                <img src="https://i.pinimg.com/736x/08/ea/94/08ea94ca94a4b3a04037bdfc335ae00d.jpg" alt="">
+            </div>
+            <div class="nameWeb">
+                <p><b>Ollama</b></p>
+            </div>
+        </div>
+        <div style="height: 20px; width: 100%; "></div>
+        <div class="chat">
+            <div class="div-chat">
+                <div class="icon-chat">
+                    <i class="fa-solid fa-comment-dots"></i>
+                </div>
+                <div class="letter-chat">
+                    <p><b>Trò chuyện</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="div-chat">
+                <div class="icon-chat">
+                    <i class="fa-solid fa-language"></i>
+                </div>
+                <div class="letter-chat">
+                    <p><b>Trò chuyện</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="div-chat">
+                <div class="icon-chat">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="letter-chat">
+                    <p><b>Trò chuyện</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="div-chat">
+                <div class="icon-chat">
+                    <i class="fa-solid fa-language"></i>
+                </div>
+                <div class="letter-chat">
+                    <p><b>Trò chuyện</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="div-chat">
+                <div class="icon-chat">
+                    <i class="fa-solid fa-language"></i>
+                </div>
+                <div class="letter-chat">
+                    <p><b>Trò chuyện</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      
+    <div class="ollama_chat">
+        <div id="chatbox">  
+            <div id="messages"></div>  
+            <div class="seen">
+                <input type="text" id="userInput" placeholder="Nhập tin nhắn...">  
+                <button id="sendButton">Gửi</button> 
+            </div> 
+        </div>  
+    </div>
+
+    <script src="{{ url_for('static', filename='javascript.js') }}"></script> 
+</body>  
+
+</html>
